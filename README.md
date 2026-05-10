@@ -40,7 +40,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## 🔗 Repository
-You can check out the [Traveloop GitHub repository](https://github.com/nitinbharwad84-ops/traveloop).
+You can check out the [Traveloop GitHub repository](https://github.com/technology67613/Traveloop.git).
 
 ## 📄 License
 This project is private and for internal use only.

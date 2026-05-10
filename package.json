@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/nitinbharwad84-ops/traveloop.git"
+    "url": "https://github.com/technology67613/Traveloop.git"
   },
   "scripts": {
     "dev": "next dev",
