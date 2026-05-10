@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 
 import { Toaster } from "sonner";
 import { AuthInitializer } from "@/components/auth/AuthInitializer";
+import { Navbar } from "@/components/layout/Navbar";
 
 export const metadata: Metadata = {
   title: "Traveloop | Personalized Travel Planning",
@@ -30,8 +31,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-slate-50 dark:bg-slate-950">
         <AuthInitializer />
+        <Navbar />
         {children}
         <Toaster position="top-right" richColors />
       </body>
